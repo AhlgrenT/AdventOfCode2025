@@ -7,10 +7,10 @@ int main(int argc, char* argv[]) {
 
   std::ifstream input(argv[1]);
 
-	if (!input) {
-		std::cerr << "Could not open file!" << std::endl;
-		return 1;
-	}
+  if (!input) {
+    std::cerr << "Could not open file!" << std::endl;
+    return 1;
+  }
 
   std::string line;
   int dial = 50;
