@@ -29,9 +29,9 @@ int main(int argc, char* argv[]) {
     if (dial == 0) zeroes++;
 	}
 	
-	std::cout << zeroes << std::endl;
-	input.close();
-	
-	return 0;
+  std::cout << zeroes << std::endl;
+  input.close();
+  
+  return 0;
 }
 
