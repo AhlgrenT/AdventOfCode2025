@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
  
     dial = (dial + value) % 100;
     if (dial == 0) zeroes++;
-	}
+  }
 	
   std::cout << zeroes << std::endl;
   input.close();
