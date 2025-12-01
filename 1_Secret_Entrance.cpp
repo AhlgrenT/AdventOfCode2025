@@ -11,12 +11,12 @@ int main(int argc, char* argv[]) {
 		std::cerr << "Could not open file!" << std::endl;
 		return 1;
 	}
-	
-	std::string line;
-	int dial = 50;
-	int zeroes = 0;
-	
-	while (std::getline(input, line)) {
+
+  std::string line;
+  int dial = 50;
+  int zeroes = 0;
+	  
+  while (std::getline(input, line)) {
     if (line.empty()) continue;
     
 		int value = std::stoi(line.substr(1)); 
