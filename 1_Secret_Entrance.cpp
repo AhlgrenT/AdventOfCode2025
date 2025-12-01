@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
   while (std::getline(input, line)) {
     if (line.empty()) continue;
     
-		int value = std::stoi(line.substr(1)); 
+    int value = std::stoi(line.substr(1)); 
 
     if (line.at(0) == 'L') {
     	value = 100 - value;
